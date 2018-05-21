@@ -1,0 +1,13 @@
+Aaron Santucci
+Homework 6
+CS 232
+
+1.	Generally the earlier threads get in the store first but not always.
+	This is because it iterates through a for-loop to create the threads;
+	if a higher id thread gets in before a lower one, it's the exception
+	not the norm.
+
+2.	To set the priority, I had the other threads wait on a flag to be lowered
+	once the last thread got into the line. While not a true priority system
+	this could be applied with other threads to create a theoretical 
+	hierarchy.
